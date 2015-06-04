@@ -1,0 +1,25 @@
+{
+    "name": "fivepercent/pagination",
+    "description": "Paginate data",
+    "keywords": [ "paginate" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Zhuk",
+            "email": "zhuk2205@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "suggest": {
+        "doctrine/orm": "For use DoctrineORM Pagination"
+    },
+
+    "autoload": {
+        "psr-4": { "FivePercent\\Component\\Pagination\\": "src/" }
+    }
+}
